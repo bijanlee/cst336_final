@@ -33,10 +33,7 @@ app.get("/", function (req, res) {
  });
  
 
- //welome page
-app.get("/", function (req, res) {
-    res.render("results");
- });
+
  
  app.post("/", function(req,res){
 
